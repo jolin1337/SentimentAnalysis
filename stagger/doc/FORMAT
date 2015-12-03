@@ -1,0 +1,25 @@
+    CoNLL-X based annotated data format
+
+
+1   Word index (1-based, within sentence)
+2   Word form
+3   Lemma (empty string if not available)
+4   POS tag (coarse), or "_"
+5   POS tag (fine-grained -- identical to above, ignored in input) or "_"
+6   Morphological features or "_"
+7   Head or "_"
+8   Dependency type or "_"
+9   Chunk tag (B, I, O) or "_"
+10  Chunk type (corpus-specific)
+11  NE tag (B, I, O) or "_"
+12  NE type (corpus-specific)
+13  Token ID
+
+* Token ID can be arbitrary, but I use the convention of colon-separated
+  strings with the first value being the highest-level source. For instance,
+  token 3 in sentence 5 in document xyz could be encoded as  xyz:5:3
+* Most fields use a single underscore ("_") to denote a missing value, but
+  column 3 should use an empty string.
+
+http://ilk.uvt.nl/conll/
+

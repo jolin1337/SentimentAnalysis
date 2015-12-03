@@ -1,0 +1,9 @@
+1	Jag	jag	PN	PN	UTR|SIN|DEF|SUB	_	_	_	_	O	_	tst2:0:0
+2	kan	kunna	VB	VB	PRS|AKT	_	_	_	_	O	_	tst2:0:4
+3	inte	inte	AB	AB	_	_	_	_	_	O	_	tst2:0:8
+4	älska	älska	VB	VB	INF|AKT	_	_	_	_	O	_	tst2:0:13
+5	invandrare	invandrare	NN	NN	UTR|PLU|IND|NOM	_	_	_	_	O	_	tst2:0:19
+6	och	och	KN	KN	_	_	_	_	_	O	_	tst2:0:30
+7	hata	hata	VB	VB	INF|AKT	_	_	_	_	O	_	tst2:0:34
+8	muslimer	muslim	NN	NN	UTR|PLU|IND|NOM	_	_	_	_	O	_	tst2:0:39
+
